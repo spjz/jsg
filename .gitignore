@@ -1,4 +1,5 @@
-app/config/config.ini
 .idea
 .phalcon
 .resources
+app/config/config.ini
+jsg.spjz.uk.iml
