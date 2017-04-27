@@ -94,10 +94,10 @@ $di->setShared('modelsMetadata', function () {
  */
 $di->set('flash', function () {
     return new Flash([
-        'error'   => 'alert alert-danger',
-        'success' => 'alert alert-success',
-        'notice'  => 'alert alert-info',
-        'warning' => 'alert alert-warning'
+        'error'   => 'callout alert',
+        'success' => 'callout success',
+        'notice'  => 'callout primary',
+        'warning' => 'callout warning'
     ]);
 });
 
