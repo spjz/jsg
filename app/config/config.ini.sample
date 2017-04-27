@@ -3,7 +3,7 @@ adapter  = Mysql
 host     = localhost
 username = root
 password = secret
-dbname   = jsg.spjz.uk
+dbname   = database
 
 [application]
 appDir         = ../app/
@@ -14,7 +14,7 @@ viewsDir       = ../app/views/
 pluginsDir     = ../app/plugins/
 libraryDir     = ../app/library/
 cacheDir       = ../cache/
-baseUri        = /jsg.spjz.uk/
+baseUri        = /
 
 [models]
 metadata.adapter = "Memory"
